@@ -1,0 +1,59 @@
+
+* {
+  box-sizing: border-box;
+
+}  
+
+body { 
+  height:  110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+
+}
+
+.area { 
+  display: flex;
+  background-color: salmon;
+  flex-direction: row;
+  width: 600px;
+  height: 600px;
+  flex-wrap: wrap;
+}
+
+
+h1 { 
+  display: flex;
+  align-items: center;
+}
+
+.cell { 
+
+  width:  10%;
+  height: 10%;
+  background-color: grey;
+  border: 1px solid;
+}
+
+#test {
+  background-color: blueviolet;
+}
+
+
+
+.road { 
+
+  width:  10%;
+  height: 10%;
+  background-color: white;
+  border: 1px solid;
+}
+.pacmanpostion { 
+
+  background-size: contain;
+  background-image: url('pacman.png')
+  
+
+}
